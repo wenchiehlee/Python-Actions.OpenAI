@@ -15,7 +15,7 @@ jobs:
       - name: Setting up Python
         uses: actions/setup-python@v7
         with:
-          python-version: '3.9'
+          python-version: '3.11'
       - name: Installing all necessary packages
         run: pip install -r requirements.txt
       - name: Running Python
